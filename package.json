@@ -1,0 +1,38 @@
+{
+  "name": "ai_flat_price_predictor",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "server:start": "npx cross-env NODE_ENV=production node ./bin/www",
+    "server:dev": "npx cross-env NODE_ENV=development node_modules/.bin/nodemon ./bin/www",
+    "assets:dev": "npm run assets:development",
+    "assets:development": "mix",
+    "assets:watch": "mix watch",
+    "assets:prod": "npm run assets:production",
+    "assets:production": "mix --production"
+  },
+  "author": "",
+  "license": "Beerware",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "^4.3.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fontawesome-free": "^1.0.4",
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0",
+    "pupeteer": "^0.0.1",
+    "puppeteer": "^20.2.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.6",
+    "nodemon": "^2.0.15",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0"
+  }
+}

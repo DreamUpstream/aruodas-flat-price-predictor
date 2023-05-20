@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/app.css" rel="stylesheet" />
+    <title>Vilnius Flat price predictor</title>
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center mt-5">
+      <div class="card col-8">
+        <div class="card-body">
+          <h5 class="card-title">Vilnius Flat price predictor</h5>
+          <input
+            type="text"
+            id="url"
+            placeholder="Enter house listing link"
+            class="form-control"
+          />
+          <button class="btn btn-success mt-3 col-2" id="save_button">
+            Predict
+          </button>
+          <div id="message" class="mt-2 mb-2 mx-2"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

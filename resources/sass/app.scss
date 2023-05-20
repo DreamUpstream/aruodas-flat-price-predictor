@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~fontawesome-free/scss/fontawesome";
+@import "~fontawesome-free/scss/solid.scss";
+@import "~fontawesome-free/scss/brands.scss";
+
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+	font-family: Roboto-Regular;
+}

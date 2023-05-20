@@ -1,0 +1,4 @@
+{
+  "ignore": ["file_storage/*", "", "public/js", "public/css"],
+  "ext": "html,js"
+}

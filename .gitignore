@@ -1,0 +1,12 @@
+node_modules
+
+/public/file_storage
+/public/js
+/public/css
+/public/fonts
+
+/public/mix-manifest.json
+/public/mix.js.map
+.venv
+.env
+**/__pycache__
