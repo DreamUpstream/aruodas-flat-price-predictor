@@ -2,7 +2,6 @@ require("dotenv").config();
 const express = require("express");
 const router = express.Router();
 const scraper = require("../resources/js/scraper.js");
-const runner = require("../resources/js/example_runner");
 const fs = require("fs");
 const child_process = require("child_process");
 
