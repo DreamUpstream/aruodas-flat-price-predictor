@@ -45,9 +45,6 @@ async function main() {
 
   for (let i = 0; i < linksArray.length; i++) {
     await downloadHTML(linksArray[i], directory);
-    await new Promise((resolve) => {
-      setTimeout(() => resolve(), Math.floor(Math.random() * 5000));
-    });
   }
 }
 
